@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 
 app.use(bodyParser.json());
 
-mongoose.connect("mongodb+srv://anshul831904:1234@cluster0.rton6oz.mongodb.net/?retryWrites=true&w=majority", {
+mongoose.connect("connet with mngodb atlas", {
     useNewUrlParser: true,
     useUnifiedTopology: true
   });
